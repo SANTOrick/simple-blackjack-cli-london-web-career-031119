@@ -33,7 +33,7 @@ def initial_round
 
 end
 
-def hit?
+def hit?(num1)
   prompt_user
   let = get_user_input
   if let == "h"
@@ -41,7 +41,6 @@ def hit?
     $tot = $card += t2
     return $tot.to_i
   else
-    binding.pry
   return tot
       display_card_total
 end
