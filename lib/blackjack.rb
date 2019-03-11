@@ -33,7 +33,7 @@ def initial_round
 
 end
 
-def hit?(num1)
+def hit?
   prompt_user
   let = get_user_input
   if let == "h"
