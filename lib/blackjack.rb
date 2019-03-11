@@ -41,8 +41,8 @@ def hit?(num1)
     $tot = $card += $t2
     return $tot.to_i
   else
-  return $tot
-      display_card_total(47)
+  return $card
+      display_card_total()
 end
 
 end
