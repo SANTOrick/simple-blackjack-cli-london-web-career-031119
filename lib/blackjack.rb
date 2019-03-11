@@ -38,8 +38,8 @@ def hit?(num1)
   let = get_user_input
   if let == "h"
     t2 = deal_card
-    tot = $card += t2
-    return tot.to_i
+    $tot = $card += t2
+    return $tot.to_i
   else
     binding.pry
   return tot
