@@ -42,7 +42,7 @@ def hit?(num1)
     return $tot.to_i
   else
   return $card
-      display_card_total()
+      display_card_total($tot)
 end
 
 end
@@ -58,7 +58,7 @@ end
 def runner
   welcome
   initial_round
-  hit
+  hit?
   until $tot < 21 do
     hit?
   end
