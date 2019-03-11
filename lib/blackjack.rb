@@ -37,8 +37,8 @@ def hit?(num1)
   prompt_user
   let = get_user_input
   if let == "h"
-    t2 = deal_card
-    $tot = $card += t2
+    $t2 = deal_card
+    $tot = $card += $t2
     return $tot.to_i
   else
   return $tot
